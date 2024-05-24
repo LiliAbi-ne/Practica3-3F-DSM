@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(248, 248, 186);">
+    <header> 
+        <center><strong>Registro de evento DEMO</strong></center>
+    </header>
+    <main>
+        <div class="CMP">
+            <form class="FM" id="registerForm">
+                <div>
+                    <strong style="width: 10px;"><label for="name">Nombre:</label></strong><br>
+                    <input type="text" id="name" name="name" required> <br><br>
+                </div>
+                <div>
+                    <strong><label for="date">Fecha del evento</label></strong><br>
+                    <input style="padding: 10px;" type="date" id="date" name="date" required>  <br><br>
+                </div>
+                <div>
+                    <strong><label for="address">Dirección del evento</label></strong><br>
+                    <input type="text" id="address" name="address" required> <br><br>
+                </div>
+            </form>
+            <div class="Map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5211.365734755019!2d-123.02964771790477!3d49.22554118249696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486768853a0ba3b%3A0xb78453b8552f4c7d!2s3627%20E%2048th%20Ave%2C%20Vancouver%2C%20BC%20V5S%201J1%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2smx!4v1716484620064!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>   
+        </div>
+    </main>
+    <footer>    
+        <center><button id="registerButton">Registrar</button></center>
+        <div id="notification"></div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
