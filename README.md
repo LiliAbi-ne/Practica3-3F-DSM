@@ -6,10 +6,10 @@ Este proyecto tiene como objetivo mostrar cómo utilizar HTML, CSS y JavaScript 
 
 Tabajo realizado por:
 # Universidad Tecnologíca Metropolitana
-Materia: Aplicaciones Web
-Mtro. Diego Ivan May Tuz
-Alumno: Abril Contreras Suaste
-3er Cuatrimestre  | 3F
+##Materia: Aplicaciones Web
+##Mtro. Diego Ivan May Tuz
+##Alumno: Abril Contreras Suaste
+##3er Cuatrimestre  | 3F
 
   
 
